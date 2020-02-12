@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+  <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+  <link href="./styles/index.css" type="text/css" rel="stylesheet">
+    <title>Budget tracker</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div id="balance">0</div>
+      <div class="header-content">
+      <h2 class="header-text">Available Budget in <span>December</span></h2>
+      <h1 class="header-budget">0</h1>
+      <div class="budget-block budget-block--income">
+        <span class="budget-block-text">INCOME</span>
+        <span class="budget-block-value"></span>
+      </div>
+      <div class="budget-block budget-block--expense">
+        <span class="budget-block-text">EXPENSES</span>
+        <div>
+        <span class="budget-block-value"></span>
+        <span class="budget-block-badge"></span>
+        </div>
+        <span class="percent"></span><span class="percent-icon">%</span>
+
+        
+      </div>
+      
+      <div id="error-div"></div>
+      </div>
+    </div>
+    
+    </header>
+    <main class="main">
+    <section class="manage-budget">
+      <div class="container">
+      <div class="manage-budget-content">
+        <select id="selector" class="dropdown">
+        <option value="inc">Income</option>
+        <option value="exp">Expenses</option>
+        </select>
+        <input
+        id="input-description"
+        type="text"
+        placeholder="Add description"
+        class="input input--description"
+        value=""
+        />
+        <input
+        id="input-value"
+        type="text"
+        placeholder="Value"
+        class="input input--value"
+        value=""
+        />
+        <button id="btn-submit" type="button" class="btn btn-submit">
+        Submit
+        </button>
+      </div>
+      </div>
+    </section>
+    <section class="statistics" >
+      <div id="stat-content" class="statistics-content">
+      <div class="statistics-box">
+        <h2 class="statistics-header statistics-header--income">Income:</h2>
+        <ul id="incomes-list" class="statistics-list">
+        <!--<li class="income-item" data-id='1'>
+          <span class="span-description">Salary</span>
+          <div>
+          <span class="span-value">2100</span>
+          <button class="btn btn-delete">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          </button>
+          </div>
+        </li>
+        <li class="income-item" data-id='1'>
+          <span class="span-description">Salary</span>
+          <div>
+          <span class="span-value">2100</span>
+          <button class="btn btn-delete">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          </button>
+          </div>
+        </li> -->
+        </ul>
+      </div>
+      <div class="statistics-box">
+        <h2 class="statistics-header statistics-header--expense">Expenses:</h2>
+        <ul id="expenses-list" class="statistics-list"></ul>
+      </div>
+      </div>
+    </section>
+    </main>
+  <script src="src/index.js" type="module"></script>
+</body>
+
+</html>

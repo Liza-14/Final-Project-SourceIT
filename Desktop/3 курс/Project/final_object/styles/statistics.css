@@ -1,0 +1,64 @@
+.statistics {
+  padding: 13px 0;
+}
+
+.statistics-content {
+  display: flex;
+  justify-content: center;
+}
+
+.statistics-box {
+  padding: 16px;
+  margin: 0 10px;
+  min-height: 300px;
+  width: 45%;
+  box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 2px 1px -1px rgba(0,0,0,0.12);
+  border-radius: 4px;
+}
+
+.statistics-header {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+.income {
+  color: mint;
+}
+
+.expense {
+  color: rgb(44, 167, 184);
+}
+
+.statistics-list {
+  font-size: 25px;
+}
+
+.income-item, .expense-item {
+  padding: 10px 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+.span-description {
+  padding-right: 30px;
+  padding-bottom: 10px;
+}
+.span-value {
+  padding-left: 30px;
+  padding-bottom: 10px;
+  max-width: 300px;
+}
+
+.btn-delete {
+  margin-left: 10px;
+  padding: 15px 17px;
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  text-align: center;
+}
+.hover {
+  border: none;
+  background-color: lightgray;
+  color: black;
+}

@@ -1,0 +1,54 @@
+.manage-budget {
+  padding: 15px 0;
+  background-image: radial-gradient(circle, #5057b8, #635cc2, #3568a3, #44a1b8, #508dbe);
+}
+
+.manage-budget-content {
+  display: flex;
+  justify-content: center;
+}
+
+.dropdown, .input {
+  background-color: #FFFFFF;
+  background-image: none;
+  border: 0px solid transparent;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  color: black;
+  display: block;
+  font-size: 18px;
+  padding: 20px 12px;
+  transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+
+.description {
+  width: 400px;
+  padding-left: 20px;
+  margin: 0 10px;
+  transition: background-color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+.value {
+  width: 70px;
+  padding-left: 20px;
+  margin: 0 10px;
+}
+
+.placeholder {
+  font-family: mainFont;
+  color: grey;
+}
+
+.focus {
+  border-color: #66afe9;
+  outline: 0;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+}
+
+.btn-submit {
+  background-color: #70cbce;
+}
+.btn-submit:hover{
+  background-color: #05e1ec;
+}

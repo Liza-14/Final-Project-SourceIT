@@ -1,0 +1,90 @@
+.header {
+  background-image: url('../blackground.jpg');
+  background-attachment: fixed;
+
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-text {
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: rgb(245, 245, 245);
+}
+
+.header-budget {
+  margin-bottom: 30px;
+  font-size: 70px;
+  text-align: center;
+  color: white;
+}
+
+.budget-block {
+  display: flex;
+  position: relative;
+  cursor: pointer;
+  opacity: 0.7;
+  filter: alpha(Opacity=70);
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+  height: 40px;
+  padding: 10px;
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-size: 20px;
+  background: rgb(90, 105, 173);
+  color: white;
+  border-radius: 5px;
+  transition: 0.2s;
+  box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 2px 1px -1px rgba(0,0,0,0.12) inset; 
+}
+.income {
+   float: left;
+   width: 50%;
+   height: 600px;
+   padding: 100px;
+   background: rgb(33, 105, 147);
+   box-shadow: 0 3px rgb(33, 73, 147) inset;
+}
+.expenses { 
+   float: left;
+   width: 50%;
+   height: 600px;
+   padding: 100px;
+  }
+
+.text {
+  text-align: right;
+}
+
+.badge {
+  background-color: rgb(79, 135, 180);
+  padding: 0 4px;
+  margin-left: 25px;
+  border-radius: 5px;
+}
+
+
+.error{
+  padding: 10px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16pt;
+  background-color: rgba(255, 100, 100, 0.6);
+  border-radius: 0.25em;
+  
+  
+}
+#error-div{
+  height: 30px;
+}

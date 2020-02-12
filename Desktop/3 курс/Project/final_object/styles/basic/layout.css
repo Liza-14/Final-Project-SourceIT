@@ -1,0 +1,66 @@
+body {
+  font-family: "Open Sans", sans-serif; 
+  background-size: cover;
+  background-position: center;
+  font-family: Lato;
+  font-weight: 300;
+  position: relative;
+  height: 100vh;
+  color: #555;
+  margin:0;
+}
+
+section,
+header {
+  padding: 100px 0;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  padding: 0 15px;
+  margin: auto;
+}
+
+select,
+input {
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 0.25rem;
+  outline: 0;
+  margin-right: 10px;
+  padding: 0px;
+}
+
+input,
+input::placeholder {
+  color: black;
+}
+
+select {
+  padding-left: 10px;
+}
+
+.btn {
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 0;
+  padding: 22px 30px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 1.33;
+  letter-spacing: 1px;
+  text-align: center;
+  white-space: nowrap;
+  touch-action: manipulation;
+  cursor: pointer;
+  color: white;
+  outline: snow;
+}
+.hover {
+  background-color: #8be2e5;
+  transition: all 0.35s ease-in-out;
+}
